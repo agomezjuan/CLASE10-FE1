@@ -8,28 +8,46 @@
     <title>Heroes</title>
   </head>
   <body>
-    <div class="top">
-      <p>Descuentos 20%</p>
-    </div>
-    <header>
-      <div class="header">
-        <img src="./img/logo.svg" alt="" />
-        <h1>Hero Shop</h1>
+    <div class="fullheight">
+      <div class="top">
+        <p>Descuentos 20%</p>
       </div>
-      <nav>
-        <ul>
-          <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="register.html">Registrarme</a></li>
-          <li><a href="login.html">Ingresar</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h2>Iniciar Sesión</h2>
-      <form action=""></form>
-    </main>
-    <footer>
-      <p>Todos los derechos reservados a FRONT END 1</p>
-    </footer>
+      <header>
+        <div class="header">
+          <img src="./img/logo.svg" alt="" />
+          <h1>Hero Shop</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="register.html">Registrarme</a></li>
+            <li><a href="login.html">Ingresar</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="login">
+        <section class="login__container">
+          <h2>Login</h2>
+          <form action="" method="get" class="form-example">
+            <div class="form-example">
+              <label for="name">
+                <input type="text" name="name" id="name" required />
+              </label>
+            </div>
+            <div class="login__email">
+              <label for="email">
+                <input type="email" name="email" id="email" required />
+              </label>
+            </div>
+            <div class="login__submit">
+              <input type="submit" value="Entrar" />
+            </div>
+          </form>
+        </section>
+      </main>
+      <footer class="footer__fixed">
+        <p>Todos los derechos reservados a FRONT END 1</p>
+      </footer>
+    </div>
   </body>
 </html>
